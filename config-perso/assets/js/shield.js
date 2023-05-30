@@ -11,20 +11,17 @@ class Shield extends Armor
         super(name, resistance);
     }
     
-    set name(name)
+    set block(block)
     {
-        this.name = name;
+        this.block = block;
     }
     
-    get(name)
+    get(block)
     {
-        return this.name;
+        return this.block;
     }
     
-    set()
-    {
-        
-    }
+    
 }
 
 
